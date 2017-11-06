@@ -1,0 +1,20 @@
+{    
+    "motion_detector": {
+        "show_video":               true,
+        "flip_horizontal":          false,
+        "flip_vertical":            false,
+        "minimum_motion_frames":    5,
+        "camera_warmup_time":       2.5,
+        "delta_threshold":          5,
+        "resolution":               [1280,720],
+        "frames_per_second":        60,
+        "minimum_area":             1000
+    },
+    
+    "face_detector": {
+        "minimum_detection_area":   [20,20],
+        "rescale":                  250,
+        "save_image":               true,
+        "save_image_location":      "faces"
+    }
+}
